@@ -9,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "http://10.0.2.2:49899/"
+    private const val BASE_URL = "https://vibe-1-j3s0.onrender.com/"
     private lateinit var tokenManager: TokenManager
 
     /**
