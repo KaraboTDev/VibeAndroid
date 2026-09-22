@@ -1,8 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Vibe" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/vibe_dark_green</item>
+        <item name="colorSecondary">@color/vibe_orange</item>
+        <item name="android:windowBackground">@color/vibe_cream</item>
+        <item name="colorSurface">@color/vibe_white</item>
+        <item name="colorOnSurface">@color/black</item>
     </style>
 
     <style name="Theme.Vibe" parent="Base.Theme.Vibe" />
